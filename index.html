@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title> Welcome to Home Page</title>
+	 <link rel="stylesheet" href="stylehome.css">
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+	 <script src="https://kit.fontawesome.com/153d24d0f5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <section class="header">
+	    <nav>
+		    <a href="home.html"><img src="Images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+			  <i class="fa fa-xmark" onclick="hideMenu()"></i>
+			   <ul>
+			      <li><a href="index.html">HOME</a></li>
+				  <li><a href="about.html">ABOUT</a></li>
+			      <li><a href="product.html">PRODUCT/SERVICE</a></li>
+                  <li><a href="login.html">LOGIN</a></li>
+			   </ul>
+			</div>
+		    <i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		
+<div class="text-box">
+    <h1> EXCLUSIVE:YOUR NEW WARDROBE CLASSICS</h1>
+	<p>The solution to effortless dressing is here. There Was One is a collection of capsule pieces designed to slot seamlessly into every closet, whatever your style.<br>Explore the latest pieces now, only on FARFETCH.
+	</p>
+	<a href="" class="hero-btn"> Shop Now</a>
+</div>		
+		
+</section
+
+<!----------PRODUCTS------------>
+
+<section class="product">
+     <h1> Products We Are Selling</h1>
+	 <p>The solution to effortless dressing is here. There Was One is a collection of capsule pieces designed to slot seamlessly into every closet. Available on FARFETCH.</p>
+     
+	<div class="row">
+	      <div class="product-col">
+		  <img src="Images/image3.jpg" style="width:300px;height:400px;">
+		  <h3>Essential Shirting</h3>
+		  <p>'A smart staple and an easy way to elevate casual outfits - There Was One'striped style does both. Pair it with Acne Studios jeans and an Our Legacy hoodie for a fail-safe daytime look, or with tailored pants for evening.'</p>
+		</div>
+	<div class="product-col">
+	      <img src="Images/image2.jpg" style="width:300px;height:400px;">
+		  <h3>Considered Suiting</h3>
+		  <p>'Well-constructed, timeless tailoring is always worth the investment. There Was One's sleek black suit is cut for a flattering slim fit and features tuxedo details - it'll be your go-to solution for any formal occasion.'</p>
+		  </div>
+	<div class="product-col">
+	      <img src="Images/image1.jpg" style="width:300px;height:400px;">
+		  <h3>The transeasonal trench</h3>
+		  <p>'As classic as it is essential. Styled with a crisp white shirt and Bianca Saunders pants, this style from There Was One boasts all the iconic hallmarks, from a traditional mid-length to a storm flap and contrasting buttons.'</p>
+		  </div>
+		</div>
+</section>
+
+<!--------------Products with prices---------->
+<section class="price">
+          <h1>Explore</h1>
+		  <p> Explore more clothing on brands to fit your style.</p>
+		  
+		  <div class="row">
+		  <div class="card">
+          <img src="Images/item.jpg" alt="Exclusive" style="width:100%">
+          <h1>There Was One</h1>
+		  <p>lightweight shirt jacket</p>
+          <p class="price">$235</p>
+          <p><button>Add to Cart</button></p>
+          </div>
+		  <div class="card">
+          <img src="Images/item3.jpg" alt="Exclusive" style="width:100%">
+          <h1>There Was One</h1>
+		  <p>straight-leg cropped trousers</p>
+          <p class="price">$270</p>
+          <p><button>Add to Cart</button></p>
+          </div>
+          <div class="card">
+          <img src="Images/item2.jpg" alt="Exclusive" style="width:100%">
+          <h1>Rick Owens</h1>
+		  <p>Scarpe Cargo high-top sneakers</p>
+          <p class="price">$423</p>
+          <p><button>Add to Cart</button></p>
+          </div>
+
+
+</div>
+</section>
+
+<!-------SHOPS---------->
+<section class="shops">
+    <h1> Visit other stores</h1>
+	<p>Shop the world's best boutiques that you can visit</p>
+	
+	<div class="row">
+	    <div class="shops-col">
+		   <img src="Images/shop1.jpg">
+		   <h3>The Cult Edit</h3>
+		   <p>Cutting-edge pieces and experimental design</p>
+		</div> 
+		<div class="shops-col">
+		   <img src="Images/shop2.jpg">
+		   <h3>The Streetwear Edit</h3>
+		   <p>Hype sneakers and top-tier brands</p>
+		</div>   
+        <div class="shops-col">
+		   <img src="Images/shop3.jpg">
+		   <h3>The Minimalist Edit</h3>
+		   <p>Clean lines and paired-back styles</p>
+		</div>   
+</div>
+</section>
+
+<!----------FOOTER-------->
+<section class="footer">
+	<h4> ABOUT US</h4>
+	<p> THIS IS FOR EDUCATIONAL PURPOSES ALL COPYRIGHTS RESERVED TO THE OWNERS.</p>
+</section>
+
+
+	 
+<!----------------JAVASCRIPT------------------------------->
+<script>
+	    
+		var navLinks = document.getElementById("navLinks");
+		
+		function showMenu(){
+		    navLinks.style.right = "0";
+			}
+		function hideMenu(){
+		    navLinks.style.right = "-200px";
+			}
+</script>		
+
+</body>
+</html>	 
