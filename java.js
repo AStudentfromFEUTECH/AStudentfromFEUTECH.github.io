@@ -11,6 +11,8 @@ function validate()
 	else
 	{
 		alert("Login Failed");
+		window.open("index.html");
+		return true;
 	}
 }
 
