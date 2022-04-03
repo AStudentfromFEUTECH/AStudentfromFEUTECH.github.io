@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title> Welcome to Home Page</title>
+	 <link rel="stylesheet" href="stylehome.css">
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+	 <script src="https://kit.fontawesome.com/153d24d0f5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <section class="sub-header">
+	    <nav>
+		    <a href="home.html"><img src="Images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+			  <i class="fa fa-xmark" onclick="hideMenu()"></i>
+			   <ul>
+			      <li><a href="index.html">HOME</a></li>
+				  <li><a href="about.html">ABOUT</a></li>
+			      <li><a href="product.html">PRODUCT/SERVICE</a></li>
+                  <li><a href="login.html">LOGIN</a></li>
+			   </ul>
+			</div>
+		    <i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>About Us</h1>	
+</section>
+<!-------------About Us Content----------->
+
+<section class="about-us">
+
+    <div class="row">
+	    <div class="about-col">
+		<h1>FARFETCH</h1>
+		<p>Farfetch is a British-Portuguese online luxury fashion retail platform that sells products from over 700 boutiques and brands from around the world. The company was founded in 2007 by the Portuguese entrepreneur José Neves with its headquarters in London and main branches in Lisbon and Porto. There are many offices worldwide in Guimarães, Braga, New York, Los Angeles, Tokyo, Shanghai, Hong Kong, São Paulo, Dubai, New Delhi and Moscow.
+<br>The e-commerce company operates local-language websites and mobile apps for international markets in English, Spanish, French, Japanese, Chinese, Arabic, German, Portuguese, Korean, Italian and Russian. Farfetch has offices in 14 cities and employs over 4,500 staff.</p>
+	</div>
+	<div class="about-col">
+	     <img src="Images/about1.jpg">
+	</div>
+</div>
+</section>
+
+
+
+<!----------FOOTER-------->
+<section class="footer">
+	<h4> ABOUT US</h4>
+	<p> THIS IS FOR EDUCATIONAL PURPOSES ALL COPYRIGHTS RESERVED TO THE OWNERS.</p>
+</section>
+
+
+	 
+<!----------------JAVASCRIPT------------------------------->
+<script>
+	    
+		var navLinks = document.getElementById("navLinks");
+		
+		function showMenu(){
+		    navLinks.style.right = "0";
+			}
+		function hideMenu(){
+		    navLinks.style.right = "-200px";
+			}
+</script>		
+
+</body>
+</html>	 
